@@ -1,0 +1,78 @@
+{
+  "js_heavy_sites": [
+    {
+      "name": "RemoteOK",
+      "url": "https://remoteok.com/remote-dev-jobs",
+      "type": "js_heavy",
+      "selectors": {
+        "job_container": ".job",
+        "job_title": ".company h2",
+        "company": ".company h3",
+        "location": ".location",
+        "salary": ".salary"
+      }
+    },
+    {
+      "name": "PowerToFly",
+      "url": "https://powertofly.com/jobs/",
+      "type": "js_heavy",
+      "selectors": {
+        "job_container": ".job-card",
+        "job_title": ".job-title",
+        "company": ".company-name",
+        "location": ".job-location",
+        "salary": ".job-salary"
+      }
+    },
+    {
+      "name": "AutoApply",
+      "url": "https://autoapply.jobs/remote-jobs",
+      "type": "js_heavy",
+      "selectors": {
+        "job_container": ".job-listing",
+        "job_title": ".job-title",
+        "company": ".company-name",
+        "location": ".job-location",
+        "salary": ".job-salary"
+      }
+    }
+  ],
+  "static_sites": [
+    {
+      "name": "WeWorkRemotely",
+      "url": "https://weworkremotely.com/remote-jobs",
+      "type": "static",
+      "selectors": {
+        "job_container": ".job",
+        "job_title": ".title",
+        "company": ".company",
+        "location": ".region",
+        "salary": ".salary"
+      }
+    },
+    {
+      "name": "Remote.co",
+      "url": "https://remote.co/remote-jobs/",
+      "type": "static",
+      "selectors": {
+        "job_container": ".job-card",
+        "job_title": ".job-title",
+        "company": ".company-name",
+        "location": ".location",
+        "salary": ".salary"
+      }
+    },
+    {
+      "name": "Remote4Me",
+      "url": "https://remote4me.com/remote-jobs",
+      "type": "static",
+      "selectors": {
+        "job_container": ".job-item",
+        "job_title": ".job-title",
+        "company": ".company",
+        "location": ".location",
+        "salary": ".salary"
+      }
+    }
+  ]
+}
